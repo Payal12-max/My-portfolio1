@@ -150,6 +150,10 @@ span.navbar-text {
 .social-icon a:hover img {
 	filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
 }
+.social-icon img.leetcode-icon {
+    width: 40px;
+    height: 32px;
+}
 .navbar-text button {
   font-weight: 700;
   color: #fff;
