@@ -21,7 +21,7 @@ function ExperienceCard({ experience, index }) {
   const opacity = useTransform(scrollYProgress, [0, 1], [0, 1]);
 
   const translateX = useTransform(
-    scrollYProgress,g
+    scrollYProgress,
     [0, 1],
     [isLeft ? -80 : 80, 0],
   );
