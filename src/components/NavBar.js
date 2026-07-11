@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from '../assets/img/logo.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/navicon22.png';
+import navIcon2 from '../assets/img/navicon22.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
 import { HashLink } from 'react-router-hash-link';
 import {
@@ -51,7 +51,7 @@ export const NavBar = () => {
             <span className="navbar-text">
               <div className="social-icon">
                 <a href="https://www.linkedin.com/in/payal-sulaniya-a8a566328"><img src={navIcon1} alt="" /></a>
-                <a href="#"><img src={navIcon2} alt="" /></a>
+                <a href="https://leetcode.com/u/Payal_1212"><img src={navIcon2} alt="leetcodeicon" className="leetcode-icon"/></a>
                 <a href="https://www.instagram.com/_._sunshine_145?igsh=MWt0Z281ajZ6MjFwaQ=="><img src={navIcon3} alt="" /></a>
               </div>
               <HashLink to='#connect'>
